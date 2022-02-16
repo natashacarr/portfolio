@@ -52,19 +52,19 @@
 
 .nav-divider {
   margin: auto 1.5rem;
-  color: #474747;
+  color: #525252;
 }
 
 .nav-link,
 .nav-link:visited {
   text-decoration: none;
-  color: #1b1b1b;
+  color: #3b3b3b;
 }
 
 #about:hover {
   text-shadow: -2px -2px white, -2px 2px white, 2px -2px white, 2px 2px white;
   background-size: 1px 1em;
-  box-shadow: inset 0 -0.1em white, inset 0 -0.17em #dc89b4;
+  box-shadow: inset 0 -0.1em white, inset 0 -0.17em #f392c4;
 }
 
 #projects:hover {
