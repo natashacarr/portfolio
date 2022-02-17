@@ -26,9 +26,9 @@ body {
   box-sizing: border-box;
   background: linear-gradient(
     353deg,
-    rgba(232, 210, 178, 1) 0%,
-    rgba(240, 230, 214, 1) 40%,
-    rgba(255, 254, 239, 1) 100%
+    rgba(255, 218, 190, 1) 0%,
+    rgba(255, 233, 219, 1) 33%,
+    rgba(255, 255, 255, 1) 85%
   );
   background-repeat: no-repeat;
   background-attachment: fixed;

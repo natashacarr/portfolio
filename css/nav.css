@@ -58,7 +58,6 @@
 }
 
 #about:hover {
-  /* text-shadow: -1px -1px white, -1px 1px white, 1px -1px white, 1px 1px white; */
   background-size: 1px 1em;
   box-shadow: inset 0 -0.1em white, inset 0 -0.17em #f98365;
 }
@@ -70,7 +69,6 @@
 }
 
 #contact:hover {
-  /* text-shadow: -2px -2px white, -2px 2px white, 2px -2px white, 2px 2px white; */
   background-size: 1px 1em;
   box-shadow: inset 0 -0.1em white, inset 0 -0.17em #f98365;
 }

@@ -12,9 +12,9 @@
   justify-items: center;
 }
 
-/* bio images */
+/* left column - profile */
 
-#images {
+#profile {
   grid-column: 1/1;
   height: 100%;
   display: grid;
@@ -23,32 +23,13 @@
   align-items: center;
 }
 
-#profile {
+#profile-img {
   grid-column: 1/1;
-  width: 65%;
+  width: 75%;
   border-radius: 100%;
 }
 
-.icons {
-  grid-column: 1/1;
-  padding: 0px;
-  margin: 0px;
-  background: rgb(255, 255, 255, 0.3);
-  border-radius: 5px;
-  box-shadow: 0px 0px 3px 0px rgba(120, 95, 80, 0.3);
-}
-
-.icons li {
-  display: inline-block;
-}
-
-.icon {
-  width: 32px;
-  margin: 0px 3px;
-  margin-top: 3px;
-}
-
-/* bio text */
+/* right column - bio */
 
 #bio {
   grid-column: 2/2;
@@ -83,4 +64,26 @@
 .bio-link:hover {
   cursor: pointer;
   color: #bb634d;
+}
+
+/* right column - dev icons */
+
+#icons {
+  grid-column: 2/2;
+  padding: 0px;
+  margin-top: 10px;
+  text-align: center;
+  background: rgb(255, 255, 255, 0.2);
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px rgba(120, 95, 80, 0.2);
+}
+
+#icons li {
+  display: inline-block;
+}
+
+.icon {
+  width: 32px;
+  margin: 0px 10px;
+  margin-top: 3px;
 }
