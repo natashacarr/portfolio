@@ -87,3 +87,39 @@
   margin: 0px 10px;
   margin-top: 3px;
 }
+
+/* //////////////////////////// */
+/* smaller screens */
+
+/* tablet portrait */
+
+@media screen and (max-width: 768px) {
+  #about-content {
+    top: 50px;
+    width: 90vw;
+    display: block;
+  }
+
+  #profile {
+    float: left;
+    width: 40%;
+    margin: 0px 10px 10px 0px;
+  }
+
+  #profile-img {
+    width: 100%;
+  }
+}
+
+/* mobile */
+
+@media screen and (max-width: 480px) {
+  #about-content {
+    top: 40px;
+    width: 95vw;
+  }
+
+  #profile {
+    width: 50%;
+  }
+}
