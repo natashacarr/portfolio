@@ -111,7 +111,7 @@
   }
 }
 
-/* mobile */
+/* mobile 480px */
 
 @media screen and (max-width: 480px) {
   #about-content {
@@ -121,5 +121,16 @@
 
   #profile {
     width: 50%;
+  }
+}
+
+/* mobile 375px */
+@media screen and (max-width: 376px) {
+  .icon {
+    margin: 0px 5px;
+  }
+
+  .bio-text {
+    text-align: justify;
   }
 }
