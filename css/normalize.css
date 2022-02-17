@@ -11,7 +11,6 @@
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  background-color: rgb(245, 245, 245);
 }
 
 /* Sections
@@ -22,8 +21,17 @@ html {
  */
 
 body {
+  height: 100%;
   margin: 0;
   box-sizing: border-box;
+  background: linear-gradient(
+    353deg,
+    rgba(232, 210, 178, 1) 0%,
+    rgba(240, 230, 214, 1) 40%,
+    rgba(255, 254, 239, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /**

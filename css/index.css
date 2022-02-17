@@ -1,6 +1,6 @@
 #about-content {
   position: absolute;
-  top: 96px;
+  top: 100px;
   right: 0px;
   left: 0px;
   width: 85vw;
@@ -10,13 +10,11 @@
   grid-template-columns: 35% 65%;
   grid-template-rows: 100%;
   justify-items: center;
-  /* border: 1px solid black; */
 }
 
 /* bio images */
 
 #images {
-  /* border: solid 1px black; */
   grid-column: 1/1;
   height: 100%;
   display: grid;
@@ -27,29 +25,32 @@
 
 #profile {
   grid-column: 1/1;
-  width: 70%;
-  border: 1.3px solid #808080;
+  width: 65%;
   border-radius: 100%;
 }
 
-#icons {
+.icons {
   grid-column: 1/1;
   padding: 0px;
+  margin: 0px;
+  background: rgb(255, 255, 255, 0.3);
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px rgba(120, 95, 80, 0.3);
 }
 
-#icons li {
+.icons li {
   display: inline-block;
 }
 
 .icon {
   width: 32px;
-  padding: 0px 3px;
+  margin: 0px 3px;
+  margin-top: 3px;
 }
 
 /* bio text */
 
 #bio {
-  /* border: 1px solid black; */
   grid-column: 2/2;
   width: 100%;
 }
@@ -58,7 +59,7 @@
   font-family: Urbanist, sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
-  color: #5e828d;
+  color: #7e4334;
   margin: 0px;
   margin-bottom: 7px;
 }
@@ -68,6 +69,18 @@
   font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.1rem;
-  color: #424242;
+  color: #572f23;
   margin: 0px;
+}
+
+.bio-link,
+.bio-link:visited {
+  text-decoration: none;
+  font-weight: 700;
+  color: #572f23;
+}
+
+.bio-link:hover {
+  cursor: pointer;
+  color: #bb634d;
 }
