@@ -13,22 +13,53 @@
     <!-- <link rel="shortcut" icon” href="favicon.ico" type="image/x-icon"> -->
 
     <link rel="stylesheet" href="css/normalize.css">
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/contact.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;500;600;700&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap">
 </head>
 
 <body>
 
-    <div>
-        <p>contact</p>
-        <a class="nav-link" id="about" href="./index.html">about</a>
+    <!--------->
+    <!-- nav -->
+    <!--------->
+
+    <div id="nav">
+        <p id="name"><span id="name-coral">Na</span><span id="name-yellow">tash</span><span id="name-coral">a.</span>
+        </p>
+
+        <ul id="links">
+            <li><a class="nav-link" id="about" href="./index.html">about</a></li>
+            <li><a class="nav-link" id="projects" href="./projects.html">projects</a></li>
+            <li><a class="nav-link" id="contact" href="./contact.html">contact</a></li>
+        </ul>
+    </div>
+
+    <!------------------>
+    <!-- page content -->
+    <!------------------>
+
+    <div id="contact-content">
+
+        <p id="contact-text">If you want to reach out, I'm available on any of the following:</p>
+
+        <div id="contact-card">
+            <img class="contact-icon" id="phone-icon" src="./images/icons/phone.png" alt="Smartphone icon" />
+            <p class="contact-type" id="phone-number">07581080113</p>
+
+            <img class="contact-icon" id="mail-icon" src="./images/icons/mail.png" alt="Email icon" />
+            <p class="contact-type" id="mail-address">natashacarr1@yahoo.com</p>
+
+            <img class="contact-icon" id="linkedin-icon" src="./images/icons/linkedin.png" alt="LinkedIn icon"/>
+            <p class="contact-type" id="linkedin-address">/natasha-carr-334a68222</p>
+        </div>
+
     </div>
 
 </body>
-
-<!-- <script src="js/fortunes.mjs"></script> -->
 
 </html>

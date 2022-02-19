@@ -7,7 +7,7 @@
   height: auto;
   margin: 0px;
   background-color: white;
-  box-shadow: 0px 3px 5px 0px rgba(105, 81, 66, 0.5);
+  box-shadow: 0px 3px 5px 0px rgba(109, 109, 109, 0.5);
   position: absolute;
   top: 0;
   left: 0;
@@ -27,11 +27,11 @@
 }
 
 #name-coral {
-  color: #f98365;
+  color: #85b8cc;
 }
 
 #name-yellow {
-  color: #f9de59;
+  color: #ffd270;
 }
 
 /* links */
@@ -54,26 +54,29 @@
 .nav-link,
 .nav-link:visited {
   text-decoration: none;
-  color: #572f23;
+  color: #424242;
 }
 
 #about:hover {
   background-size: 1px 1em;
-  box-shadow: inset 0 -0.1em white, inset 0 -0.17em #f98365;
+  box-shadow: inset 0 -0.1em white, inset 0 -0.17em #85b8cc;
 }
 
 #projects:hover {
   text-shadow: -1px -1px white, -1px 1px white, 1px -1px white, 1px 1px white;
   background-size: 1px 1em;
-  box-shadow: inset 0 -0.1em white, inset 0 -0.17em #f9de59;
+  box-shadow: inset 0 -0.1em white, inset 0 -0.17em #ffd270;
 }
 
 #contact:hover {
   background-size: 1px 1em;
-  box-shadow: inset 0 -0.1em white, inset 0 -0.17em #f98365;
+  box-shadow: inset 0 -0.1em white, inset 0 -0.17em #85b8cc;
 }
 
-/* //////////////////////////// */
+/* /////////////// */
+/* smaller screens */
+/* /////////////// */
+
 /* mobile 480px */
 
 @media screen and (max-width: 480px) {

@@ -1,0 +1,164 @@
+#contact-content {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  left: 0px;
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact-text {
+  font-family: Urbanist, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #424242;
+  margin: 0;
+}
+
+/* contact details */
+
+#contact-card {
+  width: 35%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(1fr, 2);
+  grid-template-rows: repeat(auto, 3);
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.4);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgb(0, 0, 0, 0.3);
+}
+
+.contact-icon {
+  width: 36px;
+  margin: 20px 20px;
+}
+
+.contact-type {
+  font-family: Urbanist, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  color: #424242;
+}
+
+/* contact details positioning */
+
+#phone-icon {
+  grid-column: 1/1;
+  grid-row: 1/1;
+  justify-self: right;
+}
+
+#phone-number {
+  grid-column: 2/2;
+  grid-row: 1/1;
+  justify-self: left;
+}
+
+#mail-icon {
+  grid-column: 1/1;
+  grid-row: 2/2;
+  justify-self: right;
+}
+
+#mail-address {
+  grid-column: 2/2;
+  grid-row: 2/2;
+  justify-self: left;
+}
+
+#linkedin-icon {
+  grid-column: 1/1;
+  grid-row: 3/3;
+  justify-self: right;
+}
+
+#linkedin-address {
+  grid-column: 2/2;
+  grid-row: 3/3;
+  justify-self: left;
+}
+
+/* /////////////// */
+/* smaller screens */
+/* /////////////// */
+
+/* tablet landscape 1024px */
+
+@media screen and (max-width: 1024px) {
+  #contact-card {
+    width: 45%;
+  }
+
+  .contact-icon {
+    margin: 15px 20px;
+  }
+
+  .contact-type {
+    font-size: 1.2rem;
+  }
+}
+
+/* tablet portrait 768px */
+
+@media screen and (max-width: 768px) {
+  #contact-card {
+    width: 55%;
+  }
+}
+
+/* mobile 480px */
+
+@media screen and (max-width: 480px) {
+  #contact-content {
+    top: 140px;
+    width: 95vw;
+  }
+
+  #contact-text {
+    font-size: 1rem;
+  }
+
+  #contact-card {
+    width: 75%;
+    margin: 30px auto;
+  }
+
+  .contact-icon {
+    width: 30px;
+    margin: 10px 15px;
+  }
+
+  .contact-type {
+    font-size: 1rem;
+  }
+}
+
+/* mobile 375px */
+
+@media screen and (max-width: 376px) {
+  #contact-content {
+    top: 140px;
+    width: 85vw;
+  }
+
+  #contact-text {
+    font-size: 1rem;
+  }
+
+  #contact-card {
+    width: 85%;
+    margin: 30px auto;
+  }
+
+  .contact-icon {
+    width: 27px;
+    margin: 10px 10px;
+  }
+
+  .contact-type {
+    font-size: 0.9rem;
+  }
+}

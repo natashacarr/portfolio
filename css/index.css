@@ -40,17 +40,17 @@
   font-family: Urbanist, sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
-  color: #7e4334;
+  color: #5e828d;
   margin: 0px;
   margin-bottom: 7px;
 }
 
 .bio-text {
   font-family: Urbanist, sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.1rem;
-  color: #572f23;
+  line-height: 1.5rem;
+  color: #424242;
   margin: 0px;
 }
 
@@ -58,12 +58,12 @@
 .bio-link:visited {
   text-decoration: none;
   font-weight: 700;
-  color: #572f23;
+  color: #424242;
 }
 
 .bio-link:hover {
   cursor: pointer;
-  color: #bb634d;
+  color: #5e828d;
 }
 
 /* right column - dev icons */
@@ -73,7 +73,7 @@
   padding: 0px;
   margin-top: 10px;
   text-align: center;
-  background: rgb(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255, 0.3);
   border-radius: 5px;
   box-shadow: 0px 0px 3px 0px rgba(120, 95, 80, 0.2);
 }
@@ -88,8 +88,9 @@
   margin-top: 3px;
 }
 
-/* //////////////////////////// */
+/* /////////////// */
 /* smaller screens */
+/* /////////////// */
 
 /* tablet portrait */
 
@@ -128,9 +129,5 @@
 @media screen and (max-width: 376px) {
   .icon {
     margin: 0px 5px;
-  }
-
-  .bio-text {
-    text-align: justify;
   }
 }

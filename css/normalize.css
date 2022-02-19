@@ -24,14 +24,7 @@ body {
   height: 100%;
   margin: 0;
   box-sizing: border-box;
-  background: linear-gradient(
-    353deg,
-    rgba(255, 218, 190, 1) 0%,
-    rgba(255, 233, 219, 1) 33%,
-    rgba(255, 255, 255, 1) 85%
-  );
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #fafafa;
 }
 
 /**
