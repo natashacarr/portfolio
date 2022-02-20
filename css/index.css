@@ -73,9 +73,9 @@
   padding: 0px;
   margin-top: 10px;
   text-align: center;
-  background: rgb(255, 255, 255, 0.3);
+  background: rgb(255, 255, 255, 0.4);
   border-radius: 5px;
-  box-shadow: 0px 0px 3px 0px rgba(120, 95, 80, 0.2);
+  box-shadow: 0px 0px 3px 0px rgba(120, 95, 80, 0.3);
 }
 
 #icons li {
@@ -88,23 +88,23 @@
   margin-top: 3px;
 }
 
-/* /////////////// */
-/* smaller screens */
-/* /////////////// */
+/* /////////// */
+/* breakpoints */
+/* /////////// */
 
-/* tablet portrait */
+/* 955px */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 955px) {
   #about-content {
-    top: 50px;
+    top: 70px;
     width: 90vw;
     display: block;
   }
 
   #profile {
     float: left;
-    width: 40%;
-    margin: 0px 10px 10px 0px;
+    width: 35%;
+    margin-right: 30px;
   }
 
   #profile-img {
@@ -112,12 +112,20 @@
   }
 }
 
-/* mobile 480px */
+/* 768px */
+
+@media screen and (max-width: 768px) {
+  #profile {
+    width: 40%;
+    margin-right: 25px;
+  }
+}
+
+/* 480px */
 
 @media screen and (max-width: 480px) {
   #about-content {
     top: 120px;
-    width: 90vw;
   }
 
   #profile {
@@ -125,9 +133,17 @@
   }
 }
 
-/* mobile 375px */
+/* 375px */
 @media screen and (max-width: 376px) {
+  #profile {
+    margin-right: 10px;
+  }
+
+  #icons {
+    padding-top: 2px;
+  }
+
   .icon {
-    margin: 0px 5px;
+    margin: 2px 2px;
   }
 }
