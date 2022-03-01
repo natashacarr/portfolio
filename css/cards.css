@@ -1,0 +1,43 @@
+/* /////////// */
+/* boozer card */
+/* /////////// */
+
+#boozer-card {
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+
+#boozer-header {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    10deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(126, 126, 126, 1) 70%,
+    rgba(176, 176, 176, 1) 100%
+  );
+}
+
+#boozer-logo {
+  width: 40%;
+  margin: 10px 0px;
+}
+
+#boozer-details {
+  display: none;
+}
+
+#boozer-screenshots {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.boozer-web-ss,
+.boozer-mobile-ss {
+  height: 180px;
+  margin-bottom: 5px;
+}
+
+/* //////////// */
+/* snippet card */
+/* //////////// */
