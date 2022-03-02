@@ -41,3 +41,93 @@
 /* //////////// */
 /* snippet card */
 /* //////////// */
+
+/* /////////// */
+/* breakpoints */
+/* /////////// */
+
+/* 1920px */
+
+@media screen and (max-width: 1920px) {
+  /* boozer */
+  .boozer-web-ss,
+  .boozer-mobile-ss {
+    height: 283px;
+    margin-bottom: 10px;
+  }
+}
+
+/* 1536px */
+
+@media screen and (max-width: 1536px) {
+  /* boozer */
+  .boozer-web-ss,
+  .boozer-mobile-ss {
+    height: 226px;
+  }
+}
+
+/* 1367px */
+
+@media screen and (max-width: 1367px) {
+  /* boozer */
+  .boozer-web-ss,
+  .boozer-mobile-ss {
+    height: 202px;
+  }
+}
+
+/* 1025px */
+
+@media screen and (max-width: 1025px) {
+  /* boozer */
+  .boozer-web-ss,
+  .boozer-mobile-ss {
+    height: 150px;
+  }
+}
+
+/* 951px */
+
+@media screen and (max-width: 951px) {
+  /* boozer */
+  .boozer-web-ss,
+  .boozer-mobile-ss {
+    height: 139px;
+  }
+}
+
+/* 768px */
+
+@media screen and (max-width: 768px) {
+  /* boozer */
+  .boozer-web-ss,
+  .boozer-mobile-ss {
+    height: 112px;
+  }
+}
+
+/* 668px */
+
+@media screen and (max-width: 668px) {
+  /* boozer */
+  .boozer-web-ss,
+  .boozer-mobile-ss {
+    height: 98px;
+  }
+}
+
+/* 376px */
+
+@media screen and (max-width: 376px) {
+  /* boozer */
+  #boozer-logo {
+    width: 35%;
+    margin: 5px 0px;
+  }
+
+  .boozer-web-ss,
+  .boozer-mobile-ss {
+    height: 115px;
+  }
+}

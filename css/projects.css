@@ -3,7 +3,7 @@
   top: 100px;
   right: 0px;
   left: 0px;
-  width: 75vw;
+  width: 95vw;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -36,15 +36,18 @@
 }
 
 .card-details {
-  margin: 2%;
+  margin: 0 2%;
 }
 
 .intro {
   text-align: left;
+  margin: 0px;
+  margin-top: 20px;
 }
 
 .project-icons {
   padding: 0px;
+  margin: 30px 0px;
 }
 
 .project-icons li {
@@ -56,13 +59,17 @@
   margin: 0px 5px;
 }
 
+.screenshots {
+  margin: 0px;
+}
+
 .view-button {
   width: 7rem;
   height: 2rem;
   border: none;
   border-radius: 5px;
   background-color: #c0c0c0;
-  margin: 15px;
+  margin-bottom: 15px;
 }
 
 .view-button-txt {
@@ -80,4 +87,142 @@
 
 .active {
   border-radius: 20px 20px 0px 0px;
+}
+
+/* /////////// */
+/* breakpoints */
+/* /////////// */
+
+/* 1920px */
+
+@media screen and (max-width: 1920px) {
+  #projects-content {
+    top: 130px;
+  }
+
+  .intro {
+    font-size: 1.5rem;
+  }
+
+  .project-icon {
+    width: 64px;
+    margin: 0px 10px;
+  }
+
+  .view-button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    margin: 20px 0px 30px 0px;
+  }
+}
+
+/* 951px */
+
+@media screen and (max-width: 951px) {
+  .intro {
+    font-size: 1rem;
+  }
+
+  .project-icons {
+    margin: 20px 0px;
+  }
+
+  .project-icon {
+    width: 40px;
+    margin: 0px 7px;
+  }
+
+  .view-button {
+    width: 7rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    margin: 10px 0px 20px 0px;
+  }
+}
+
+/* 1025px */
+
+@media screen and (max-width: 1025px) {
+  .intro {
+    font-size: 1rem;
+  }
+
+  .project-icons {
+    margin: 15px 0px;
+  }
+
+  .project-icon {
+    width: 39px;
+    margin: 0px 5px;
+  }
+
+  .view-button {
+    width: 6.5rem;
+    height: 1.9rem;
+    font-size: 1.2rem;
+    margin: 5px 0px 15px 0px;
+  }
+}
+
+/* 768px */
+
+@media screen and (max-width: 768px) {
+  .intro {
+    font-size: 0.8rem;
+  }
+
+  .project-icon {
+    width: 32px;
+  }
+
+  .view-button {
+    width: 6rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* 668px */
+
+@media screen and (max-width: 668px) {
+  #projects-content {
+    top: 80px;
+  }
+}
+
+/* 376px */
+
+@media screen and (max-width: 376px) {
+  #projects-content {
+    top: 130px;
+    width: 100vw;
+    display: block;
+  }
+
+  .project-card {
+    border-radius: 15px;
+  }
+
+  .card-header {
+    border-radius: 15px;
+  }
+
+  .intro {
+    font-size: 0.7rem;
+  }
+
+  .project-icon {
+    width: 30px;
+    margin: 0px 4px;
+  }
+
+  .view-button {
+    width: 5rem;
+    font-size: 0.8rem;
+    margin: 5px 0px 15px 0px;
+  }
+
+  .active {
+    border-radius: 15px 15px 0px 0px;
+  }
 }
