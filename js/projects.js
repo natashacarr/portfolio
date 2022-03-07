@@ -11,3 +11,10 @@ $(document).ready(function () {
     $("#snippet-header").toggleClass("active");
   });
 });
+
+$(document).ready(function () {
+  $("#foreteller-header").click(function () {
+    $("#foreteller-details").slideToggle();
+    $("#foreteller-header").toggleClass("active");
+  });
+});

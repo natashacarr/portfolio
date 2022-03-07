@@ -76,6 +76,45 @@
   border: 1px solid #d1d1d1;
 }
 
+/* ////////// */
+/* foreteller */
+/* ////////// */
+
+#foreteller-card {
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+
+#foreteller-header {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    10deg,
+    rgb(246, 214, 191) 20%,
+    rgb(213, 202, 201) 50%,
+    rgb(158, 163, 186) 100%
+  );
+}
+
+#foreteller-logo {
+  width: 40%;
+  margin: 10px 0px;
+}
+
+#foreteller-details {
+  display: none;
+}
+
+#foreteller-screenshots {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.foreteller-screenshot {
+  height: 225px;
+  margin-bottom: 5px;
+}
+
 /* /////////// */
 /* breakpoints */
 /* /////////// */
@@ -84,12 +123,14 @@
 
 @media screen and (max-width: 1920px) {
   #boozer-logo,
-  #snippet-logo {
+  #snippet-logo,
+  #foreteller-logo {
     width: 50%;
   }
 
   .boozer-screenshot,
-  .snippet-screenshot {
+  .snippet-screenshot,
+  .foreteller-screenshot {
     height: 253px;
     margin-bottom: 10px;
   }
@@ -99,7 +140,8 @@
 
 @media screen and (max-width: 1536px) {
   .boozer-screenshot,
-  .snippet-screenshot {
+  .snippet-screenshot,
+  .foreteller-screenshot {
     height: 202px;
   }
 }
@@ -108,7 +150,8 @@
 
 @media screen and (max-width: 1367px) {
   .boozer-screenshot,
-  .snippet-screenshot {
+  .snippet-screenshot,
+  .foreteller-screenshot {
     height: 180px;
   }
 }
@@ -117,7 +160,8 @@
 
 @media screen and (max-width: 1025px) {
   .boozer-screenshot,
-  .snippet-screenshot {
+  .snippet-screenshot,
+  .foreteller-screenshot {
     height: 134px;
   }
 }
@@ -126,7 +170,8 @@
 
 @media screen and (max-width: 951px) {
   .boozer-screenshot,
-  .snippet-screenshot {
+  .snippet-screenshot,
+  .foreteller-screenshot {
     height: 124px;
   }
 }
@@ -135,7 +180,8 @@
 
 @media screen and (max-width: 768px) {
   .boozer-screenshot,
-  .snippet-screenshot {
+  .snippet-screenshot,
+  .foreteller-screenshot {
     height: 101px;
     margin-bottom: 5px;
   }
@@ -145,7 +191,8 @@
 
 @media screen and (max-width: 668px) {
   .boozer-screenshot,
-  .snippet-screenshot {
+  .snippet-screenshot,
+  .foreteller-screenshot {
     height: 98px;
   }
 }
@@ -154,13 +201,15 @@
 
 @media screen and (max-width: 376px) {
   #boozer-logo,
-  #snippet-logo {
+  #snippet-logo,
+  #foreteller-logo {
     width: 40%;
     margin: 10px 0px;
   }
 
   .boozer-screenshot,
-  .snippet-screenshot {
+  .snippet-screenshot,
+  .foreteller-screenshot {
     height: 116px;
   }
 }
