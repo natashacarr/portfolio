@@ -43,6 +43,22 @@
   color: #424242;
 }
 
+#linkedin-link,
+#mail-link {
+  text-decoration: none;
+  color: #424242;
+}
+
+#mail-link:hover {
+  cursor: pointer;
+  color: #ffd270;
+}
+
+#linkedin-link:hover {
+  cursor: pointer;
+  color: #85b8cc;
+}
+
 /* contact details positioning */
 
 #phone-icon {
