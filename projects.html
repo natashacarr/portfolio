@@ -1,44 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="main" lang="en-gb">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="Natasha Carr portfolio.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Natasha Carr portfolio." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Natasha Carr</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut" icon” href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut" icon” href="favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/projects.css">
-    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="css/cards.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!--------->
     <!-- nav -->
     <!--------->
 
     <div id="nav">
-        <p id="name"><span id="name-blue">Na</span><span id="name-yellow">tash</span><span id="name-blue">a.</span>
-        </p>
+      <p id="name">
+        <span id="name-blue">Na</span><span id="name-yellow">tash</span
+        ><span id="name-blue">a.</span>
+      </p>
 
-        <ul id="links">
-            <li><a class="nav-link" id="about" href="./index.html">about</a></li>
-            <li><a class="nav-link" id="projects" href="./projects.html">projects</a></li>
-            <li><a class="nav-link" id="contact" href="./contact.html">contact</a></li>
-        </ul>
+      <ul id="links">
+        <li><a class="nav-link" id="about" href="./index.html">about</a></li>
+        <li>
+          <a class="nav-link" id="projects" href="./projects.html">projects</a>
+        </li>
+        <li>
+          <a class="nav-link" id="contact" href="./contact.html">contact</a>
+        </li>
+      </ul>
     </div>
 
     <!------------------>
@@ -46,100 +52,307 @@
     <!------------------>
 
     <div id="projects-content">
-
-        <!-- Boozer card -->
-        <div id="boozer-card" class="project-card">
-            <div id="boozer-header" class="card-header">
-                <img id="boozer-logo" src="./images/boozer.png" alt="The Boozer Catalogue"/>
-            </div>
-
-            <div id="boozer-details" class="card-details">
-                <p class="intro"><b>The Boozer Catalogue</b> is a cocktail chooser website that uses the thecocktaildb.com API to give its users access to a large variety of cocktail recipes. They can search by category of drink from the homepage, or by name with the search bar. They also have the option to have a random cocktail generate from the entire database in the 'Dealers' Choice' section.</p>
-
-                <ul class="project-icons">
-                    <li><img class="project-icon" src="./images/icons/react-grey.png" alt="Built with React" /></li>
-                    <li><img class="project-icon" src="./images/icons/js-grey.png" alt="Built with JavaScript" /></li>
-                    <li><img class="project-icon" src="./images/icons/html5-grey.png" alt="Built with HTML5" /></li>
-                    <li><img class="project-icon" src="./images/icons/css3-grey.png" alt="Built with CSS3" /></li>
-                    <li><img class="project-icon" src="./images/icons/npm-grey.png" alt="Built with NPM" /></li>
-                </ul>
-
-                <div id="boozer-screenshots" class="screenshots">
-                    <img class="boozer-screenshot" src="./images/screenshots/boozer/web_home.png" alt="The Boozer Catalogue web screenshot" />
-                    <img class="boozer-screenshot" src="./images/screenshots/boozer/mobile_dealerschoice.PNG" alt="The Boozer Catalogue mobile screenshot" />
-                    <img class="boozer-screenshot" src="./images/screenshots/boozer/mobile_category.PNG" alt="The Boozer Catalogue mobile screenshot" />
-                    <img class="boozer-screenshot" src="./images/screenshots/boozer/web_category.png" alt="The Boozer Catalogue web screenshot" />
-                </div>
-                
-                <button class="view-button" type="button">
-                    <a class="view-button-txt" href="https://natashacarr.github.io/theboozercatalogue" target="_blank">View Live</a>
-                </button>
-            </div>
+      <!-- Boozer card -->
+      <div id="boozer-card" class="project-card">
+        <div id="boozer-header" class="card-header">
+          <img
+            id="boozer-logo"
+            src="./images/boozer.png"
+            alt="The Boozer Catalogue"
+          />
         </div>
 
-        <!-- Snippet card -->
-        <div id="snippet-card" class="project-card">
-            <div id="snippet-header" class="card-header">
-                <img id="snippet-logo" src="./images/snippet.png" alt="Snippet" />
-            </div>
-        
-            <div id="snippet-details" class="card-details">
-                <p class="intro"><b>Snippet</b> is a minimalistic app using the Reddit API, showing a selection of recent posts. Users can search via the searchbar at the top, or via the current top subreddits to the side. The first ten comments on any post can be shown or hidden, and users can be directed straight to the original post on Reddit if they wish.</p>
-        
-                <ul class="project-icons">
-                    <li><img class="project-icon" src="./images/icons/react-grey.png" alt="Built with React" /></li>
-                    <li><img class="project-icon" src="./images/icons/js-grey.png" alt="Built with JavaScript" /></li>
-                    <li><img class="project-icon" src="./images/icons/html5-grey.png" alt="Built with HTML5" /></li>
-                    <li><img class="project-icon" src="./images/icons/css3-grey.png" alt="Built with CSS3" /></li>
-                    <li><img class="project-icon" src="./images/icons/npm-grey.png" alt="Built with NPM" /></li>
-                </ul>
-        
-                <div id="snippet-screenshots" class="screenshots">
-                    <img class="snippet-screenshot" src="./images/screenshots/snippet/mobile_comments.PNG"
-                        alt="Snippet mobile screenshot" />
-                    <img class="snippet-screenshot" src="./images/screenshots/snippet/web_posts.png"
-                        alt="Snippet web screenshot" />
-                </div>
-        
-                <button class="view-button" type="button">
-                    <a class="view-button-txt" href="https://natashacarr.github.io/snippet" target="_blank">View
-                        Live</a>
-                </button>
-            </div>
+        <div id="boozer-details" class="card-details">
+          <p class="intro">
+            <b>The Boozer Catalogue</b> is a cocktail chooser website that uses
+            the thecocktaildb.com API to give its users access to a large
+            variety of cocktail recipes. They can search by category of drink
+            from the homepage, or by name with the search bar. They also have
+            the option to have a random cocktail generate from the entire
+            database in the 'Dealers' Choice' section.
+          </p>
+
+          <ul class="project-icons">
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/react-grey.png"
+                alt="Built with React"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/js-grey.png"
+                alt="Built with JavaScript"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/html5-grey.png"
+                alt="Built with HTML5"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/css3-grey.png"
+                alt="Built with CSS3"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/npm-grey.png"
+                alt="Built with NPM"
+              />
+            </li>
+          </ul>
+
+          <div id="boozer-screenshots" class="screenshots">
+            <img
+              class="boozer-screenshot"
+              src="./images/screenshots/boozer/web_home.png"
+              alt="The Boozer Catalogue web screenshot"
+            />
+            <img
+              class="boozer-screenshot"
+              src="./images/screenshots/boozer/mobile_dealerschoice.PNG"
+              alt="The Boozer Catalogue mobile screenshot"
+            />
+            <img
+              class="boozer-screenshot"
+              src="./images/screenshots/boozer/mobile_category.PNG"
+              alt="The Boozer Catalogue mobile screenshot"
+            />
+            <img
+              class="boozer-screenshot"
+              src="./images/screenshots/boozer/web_category.png"
+              alt="The Boozer Catalogue web screenshot"
+            />
+          </div>
+
+          <button class="view-button" type="button">
+            <a
+              class="view-button-txt"
+              href="https://natashacarr.github.io/theboozercatalogue"
+              target="_blank"
+              >View Live</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <!-- Snippet card -->
+      <div id="snippet-card" class="project-card">
+        <div id="snippet-header" class="card-header">
+          <img id="snippet-logo" src="./images/snippet.png" alt="Snippet" />
         </div>
 
-        <!-- foreteller card -->
-        <div id="foreteller-card" class="project-card">
-            <div id="foreteller-header" class="card-header">
-                <img id="foreteller-logo" src="./images/foreteller.png" alt="Foreteller" />
-            </div>
+        <div id="snippet-details" class="card-details">
+          <p class="intro">
+            <b>Snippet</b> is a minimalistic app using the Reddit API, showing a
+            selection of recent posts. Users can search via the searchbar at the
+            top, or via the current top subreddits to the side. The first ten
+            comments on any post can be shown or hidden, and users can be
+            directed straight to the original post on Reddit if they wish.
+          </p>
 
-            <div id="foreteller-details" class="card-details">
-                <p class="intro"><b>Foreteller</b> is a simple little app that randomly chooses a fortune-cookie style fortune at the click of a button.</p>
+          <ul class="project-icons">
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/react-grey.png"
+                alt="Built with React"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/js-grey.png"
+                alt="Built with JavaScript"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/html5-grey.png"
+                alt="Built with HTML5"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/css3-grey.png"
+                alt="Built with CSS3"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/npm-grey.png"
+                alt="Built with NPM"
+              />
+            </li>
+          </ul>
 
-                <ul class="project-icons">
-                    <li><img class="project-icon" src="./images/icons/js-grey.png" alt="Built with JavaScript" /></li>
-                    <li><img class="project-icon" src="./images/icons/html5-grey.png" alt="Built with HTML5" /></li>
-                    <li><img class="project-icon" src="./images/icons/css3-grey.png" alt="Built with CSS3" /></li>
-                </ul>
+          <div id="snippet-screenshots" class="screenshots">
+            <img
+              class="snippet-screenshot"
+              src="./images/screenshots/snippet/mobile_comments.PNG"
+              alt="Snippet mobile screenshot"
+            />
+            <img
+              class="snippet-screenshot"
+              src="./images/screenshots/snippet/web_posts.png"
+              alt="Snippet web screenshot"
+            />
+          </div>
 
-                <div id="foreteller-screenshots" class="screenshots">
-                    <img class="foreteller-screenshot" src="./images/screenshots/foreteller/mobile.PNG"
-                        alt="Foreteller mobile screenshot" />
-                    <img class="foreteller-screenshot" src="./images/screenshots/foreteller/web.png"
-                        alt="Foreteller web screenshot" />
-                </div>
-
-                <button class="view-button" type="button">
-                    <a class="view-button-txt" href="https://natashacarr.github.io/foreteller" target="_blank">View
-                        Live</a>
-                </button>
-            </div>
+          <button class="view-button" type="button">
+            <a
+              class="view-button-txt"
+              href="https://natashacarr.github.io/snippet"
+              target="_blank"
+              >View Live</a
+            >
+          </button>
         </div>
+      </div>
+
+      <!-- techvault card -->
+      <div id="techvault-card" class="project-card">
+        <div id="techvault-header" class="card-header">
+          <img
+            id="techvault-logo"
+            src="./images/techvault.png"
+            alt="techvault"
+          />
+        </div>
+
+        <div id="techvault-details" class="card-details">
+          <p class="intro">
+            <b>TechVault</b> is a homepage concept for a tech company, using
+            Bootstrap effects to add movement and interaction. The carousel
+            cycles through reviews of previous customers, whilst the collapse
+            feature allows users to see a little more detail on featured
+            products that interest them.
+          </p>
+
+          <ul class="project-icons">
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/bootstrap-grey.png"
+                alt="Built with Bootstrap"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/html5-grey.png"
+                alt="Built with HTML5"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/css3-grey.png"
+                alt="Built with CSS3"
+              />
+            </li>
+          </ul>
+
+          <div id="techvault-screenshots" class="screenshots">
+            <img
+              class="techvault-screenshot"
+              src="./images/screenshots/techvault/web.PNG"
+              alt="techvault mobile screenshot"
+            />
+            <img
+              class="techvault-screenshot"
+              src="./images/screenshots/techvault/mobile.png"
+              alt="techvault web screenshot"
+            />
+          </div>
+
+          <button class="view-button" type="button">
+            <a
+              class="view-button-txt"
+              href="https://natashacarr.github.io/techvault"
+              target="_blank"
+              >View Live</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <!-- foreteller card -->
+      <div id="foreteller-card" class="project-card">
+        <div id="foreteller-header" class="card-header">
+          <img
+            id="foreteller-logo"
+            src="./images/foreteller.png"
+            alt="Foreteller"
+          />
+        </div>
+
+        <div id="foreteller-details" class="card-details">
+          <p class="intro">
+            <b>Foreteller</b> is a simple little app that randomly chooses a
+            fortune-cookie style fortune at the click of a button.
+          </p>
+
+          <ul class="project-icons">
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/js-grey.png"
+                alt="Built with JavaScript"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/html5-grey.png"
+                alt="Built with HTML5"
+              />
+            </li>
+            <li>
+              <img
+                class="project-icon"
+                src="./images/icons/css3-grey.png"
+                alt="Built with CSS3"
+              />
+            </li>
+          </ul>
+
+          <div id="foreteller-screenshots" class="screenshots">
+            <img
+              class="foreteller-screenshot"
+              src="./images/screenshots/foreteller/mobile.PNG"
+              alt="Foreteller mobile screenshot"
+            />
+            <img
+              class="foreteller-screenshot"
+              src="./images/screenshots/foreteller/web.png"
+              alt="Foreteller web screenshot"
+            />
+          </div>
+
+          <button class="view-button" type="button">
+            <a
+              class="view-button-txt"
+              href="https://natashacarr.github.io/foreteller"
+              target="_blank"
+              >View Live</a
+            >
+          </button>
+        </div>
+      </div>
     </div>
 
     <script src="./js/projects.js"></script>
-
-</body>
-
+  </body>
 </html>

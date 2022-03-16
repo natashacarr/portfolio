@@ -18,3 +18,10 @@ $(document).ready(function () {
     $("#foreteller-header").toggleClass("active");
   });
 });
+
+$(document).ready(function () {
+  $("#techvault-header").click(function () {
+    $("#techvault-details").slideToggle();
+    $("#techvault-header").toggleClass("active");
+  });
+});

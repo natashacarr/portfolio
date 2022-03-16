@@ -49,8 +49,8 @@
 #snippet-header {
   background: rgb(0, 0, 0);
   background: radial-gradient(
-    rgb(255, 255, 255) 20%,
-    rgb(250, 177, 177) 60%,
+    rgb(255, 255, 255) 30%,
+    rgb(250, 177, 177) 70%,
     rgb(255, 136, 138) 100%
   );
 }
@@ -77,11 +77,50 @@
 }
 
 /* ////////// */
+/* techvault */
+/* ////////// */
+
+#techvault-card {
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+
+#techvault-header {
+  background: rgb(243, 239, 254);
+  background: radial-gradient(
+    circle,
+    rgba(243, 239, 254, 1) 0%,
+    rgba(248, 216, 96, 1) 100%
+  );
+}
+
+#techvault-logo {
+  width: 40%;
+  margin: 10px 0px;
+}
+
+#techvault-details {
+  display: none;
+}
+
+#techvault-screenshots {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.techvault-screenshot {
+  height: 225px;
+  margin-bottom: 5px;
+  border: 1px solid #d1d1d1;
+}
+
+/* ////////// */
 /* foreteller */
 /* ////////// */
 
 #foreteller-card {
-  grid-column: 1/1;
+  grid-column: 2/2;
   grid-row: 2/2;
 }
 
@@ -124,13 +163,15 @@
 @media screen and (max-width: 1920px) {
   #boozer-logo,
   #snippet-logo,
-  #foreteller-logo {
+  #foreteller-logo,
+  #techvault-logo {
     width: 50%;
   }
 
   .boozer-screenshot,
   .snippet-screenshot,
-  .foreteller-screenshot {
+  .foreteller-screenshot,
+  .techvault-screenshot {
     height: 253px;
     margin-bottom: 10px;
   }
@@ -141,7 +182,8 @@
 @media screen and (max-width: 1536px) {
   .boozer-screenshot,
   .snippet-screenshot,
-  .foreteller-screenshot {
+  .foreteller-screenshot,
+  .techvault-screenshot {
     height: 202px;
   }
 }
@@ -151,7 +193,8 @@
 @media screen and (max-width: 1367px) {
   .boozer-screenshot,
   .snippet-screenshot,
-  .foreteller-screenshot {
+  .foreteller-screenshot,
+  .techvault-screenshot {
     height: 180px;
   }
 }
@@ -161,7 +204,8 @@
 @media screen and (max-width: 1025px) {
   .boozer-screenshot,
   .snippet-screenshot,
-  .foreteller-screenshot {
+  .foreteller-screenshot,
+  .techvault-screenshot {
     height: 134px;
   }
 }
@@ -171,7 +215,8 @@
 @media screen and (max-width: 951px) {
   .boozer-screenshot,
   .snippet-screenshot,
-  .foreteller-screenshot {
+  .foreteller-screenshot,
+  .techvault-screenshot {
     height: 124px;
   }
 }
@@ -181,7 +226,8 @@
 @media screen and (max-width: 768px) {
   .boozer-screenshot,
   .snippet-screenshot,
-  .foreteller-screenshot {
+  .foreteller-screenshot,
+  .techvault-screenshot {
     height: 101px;
     margin-bottom: 5px;
   }
@@ -192,7 +238,8 @@
 @media screen and (max-width: 668px) {
   .boozer-screenshot,
   .snippet-screenshot,
-  .foreteller-screenshot {
+  .foreteller-screenshot,
+  .techvault-screenshot {
     height: 98px;
   }
 }
@@ -202,14 +249,16 @@
 @media screen and (max-width: 376px) {
   #boozer-logo,
   #snippet-logo,
-  #foreteller-logo {
+  #foreteller-logo,
+  #techvault-logo {
     width: 40%;
     margin: 10px 0px;
   }
 
   .boozer-screenshot,
   .snippet-screenshot,
-  .foreteller-screenshot {
+  .foreteller-screenshot,
+  .techvault-screenshot {
     height: 116px;
   }
 }
