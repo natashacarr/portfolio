@@ -133,7 +133,7 @@
   }
 }
 
-/* 375px */
+/* 376px */
 @media screen and (max-width: 376px) {
   #profile {
     margin-right: 10px;
@@ -144,6 +144,6 @@
   }
 
   .icon {
-    margin: 2px 2px;
+    margin: 2px 0.5px;
   }
 }

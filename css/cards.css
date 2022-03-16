@@ -1,3 +1,44 @@
+/* ///////// */
+/* all cards */
+/* ///////// */
+
+#boozer-logo,
+#snippet-logo,
+#techvault-logo,
+#foreteller-logo {
+  width: 40%;
+  margin: 10px 0px;
+}
+
+#boozer-details,
+#snippet-details,
+#techvault-details,
+#foreteller-details {
+  display: none;
+}
+
+#boozer-screenshots,
+#snippet-screenshots,
+#techvault-screenshots,
+#foreteller-screenshots {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.boozer-screenshot,
+.snippet-screenshot,
+.techvault-screenshot,
+.foreteller-screenshot {
+  height: 225px;
+  margin-bottom: 5px;
+}
+
+.snippet-screenshot,
+.techvault-screenshot {
+  border: 1px solid #d1d1d1;
+}
+
 /* /////////// */
 /* boozer card */
 /* /////////// */
@@ -15,26 +56,6 @@
     rgba(126, 126, 126, 1) 80%,
     rgba(176, 176, 176, 1) 100%
   );
-}
-
-#boozer-logo {
-  width: 40%;
-  margin: 10px 0px;
-}
-
-#boozer-details {
-  display: none;
-}
-
-#boozer-screenshots {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.boozer-screenshot {
-  height: 180px;
-  margin-bottom: 5px;
 }
 
 /* //////////// */
@@ -55,27 +76,6 @@
   );
 }
 
-#snippet-logo {
-  width: 40%;
-  margin: 10px 0px;
-}
-
-#snippet-details {
-  display: none;
-}
-
-#snippet-screenshots {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.snippet-screenshot {
-  height: 225px;
-  margin-bottom: 5px;
-  border: 1px solid #d1d1d1;
-}
-
 /* ////////// */
 /* techvault */
 /* ////////// */
@@ -92,27 +92,6 @@
     rgba(243, 239, 254, 1) 0%,
     rgba(248, 216, 96, 1) 100%
   );
-}
-
-#techvault-logo {
-  width: 40%;
-  margin: 10px 0px;
-}
-
-#techvault-details {
-  display: none;
-}
-
-#techvault-screenshots {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.techvault-screenshot {
-  height: 225px;
-  margin-bottom: 5px;
-  border: 1px solid #d1d1d1;
 }
 
 /* ////////// */
@@ -132,26 +111,6 @@
     rgb(213, 202, 201) 50%,
     rgb(158, 163, 186) 100%
   );
-}
-
-#foreteller-logo {
-  width: 40%;
-  margin: 10px 0px;
-}
-
-#foreteller-details {
-  display: none;
-}
-
-#foreteller-screenshots {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.foreteller-screenshot {
-  height: 225px;
-  margin-bottom: 5px;
 }
 
 /* /////////// */

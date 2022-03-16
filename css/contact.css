@@ -30,7 +30,6 @@
 
 #cv-download:hover {
   cursor: pointer;
-  /* text-decoration: underline; */
   background-color: #ebebeb;
 }
 
@@ -61,8 +60,9 @@
   color: #424242;
 }
 
-#linkedin-link,
-#mail-link {
+#phone-link,
+#mail-link,
+#linkedin-link {
   text-decoration: none;
   color: #424242;
 }
@@ -72,6 +72,7 @@
   color: #ffd270;
 }
 
+#phone-link:hover,
 #linkedin-link:hover {
   cursor: pointer;
   color: #85b8cc;
