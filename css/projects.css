@@ -113,8 +113,11 @@
   .view-button {
     width: 10rem;
     height: 3rem;
-    font-size: 1.8rem;
     margin: 20px 0px 30px 0px;
+  }
+
+  .view-button-txt {
+    font-size: 1.8rem;
   }
 }
 
@@ -137,32 +140,11 @@
   .view-button {
     width: 7rem;
     height: 2rem;
-    font-size: 1rem;
     margin: 10px 0px 20px 0px;
   }
-}
 
-/* 951px */
-
-@media screen and (max-width: 951px) {
-  .intro {
-    font-size: 1rem;
-  }
-
-  .project-icons {
-    margin: 20px 0px;
-  }
-
-  .project-icon {
-    width: 40px;
-    margin: 0px 7px;
-  }
-
-  .view-button {
-    width: 7rem;
-    height: 2rem;
+  .view-button-txt {
     font-size: 1.2rem;
-    margin: 10px 0px 20px 0px;
   }
 }
 
@@ -185,8 +167,34 @@
   .view-button {
     width: 6.5rem;
     height: 1.9rem;
-    font-size: 1.2rem;
     margin: 5px 0px 15px 0px;
+  }
+
+  .view-button-txt {
+    font-size: 1rem;
+  }
+}
+
+/* 951px */
+
+@media screen and (max-width: 951px) {
+  .intro {
+    font-size: 1rem;
+  }
+
+  .project-icons {
+    margin: 20px 0px;
+  }
+
+  .project-icon {
+    width: 40px;
+    margin: 0px 7px;
+  }
+
+  .view-button {
+    width: 7rem;
+    height: 2rem;
+    margin: 10px 0px 20px 0px;
   }
 }
 
@@ -203,6 +211,9 @@
 
   .view-button {
     width: 6rem;
+  }
+
+  .view-button-txt {
     font-size: 0.9rem;
   }
 }
@@ -255,9 +266,13 @@
   }
 
   .view-button {
-    width: 5rem;
-    font-size: 0.8rem;
-    margin: 5px 0px 15px 0px;
+    width: 4rem;
+    height: 1.5rem;
+    margin: 5px 0px 10px 0px;
+  }
+
+  .view-button-txt {
+    font-size: 0.7rem;
   }
 
   .active {
