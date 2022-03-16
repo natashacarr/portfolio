@@ -16,6 +16,24 @@
   margin: 0;
 }
 
+#cv-download,
+#cv-download:visited {
+  font-family: Urbanist, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #424242;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #e2e2e2;
+  border-radius: 3px;
+}
+
+#cv-download:hover {
+  cursor: pointer;
+  /* text-decoration: underline; */
+  background-color: #ebebeb;
+}
+
 /* contact details */
 
 #contact-card {

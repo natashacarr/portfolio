@@ -1,43 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="main" lang="en-gb">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="Natasha Carr portfolio.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Natasha Carr portfolio." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Natasha Carr</title>
 
     <script src="https://unpkg.com/phosphor-icons"></script>
 
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="shortcut" icon” href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut" icon” href="favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/contact.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!--------->
     <!-- nav -->
     <!--------->
 
     <div id="nav">
-        <p id="name"><span id="name-blue">Na</span><span id="name-yellow">tash</span><span id="name-blue">a.</span>
-        </p>
+      <p id="name">
+        <span id="name-blue">Na</span><span id="name-yellow">tash</span
+        ><span id="name-blue">a.</span>
+      </p>
 
-        <ul id="links">
-            <li><a class="nav-link" id="about" href="./index.html">about</a></li>
-            <li><a class="nav-link" id="projects" href="./projects.html">projects</a></li>
-            <li><a class="nav-link" id="contact" href="./contact.html">contact</a></li>
-        </ul>
+      <ul id="links">
+        <li><a class="nav-link" id="about" href="./index.html">about</a></li>
+        <li>
+          <a class="nav-link" id="projects" href="./projects.html">projects</a>
+        </li>
+        <li>
+          <a class="nav-link" id="contact" href="./contact.html">contact</a>
+        </li>
+      </ul>
     </div>
 
     <!------------------>
@@ -45,22 +51,33 @@
     <!------------------>
 
     <div id="contact-content">
+      <p id="contact-text">
+        If you want to reach out, I'm available on any of the following:
+      </p>
 
-        <p id="contact-text">If you want to reach out, I'm available on any of the following:</p>
+      <div id="contact-card">
+        <i class="ph-device-mobile-camera contact-icon" id="phone-icon"></i>
+        <p class="contact-type" id="phone-number">07581080113</p>
 
-        <div id="contact-card">
-            <i class="ph-device-mobile-camera contact-icon" id="phone-icon"></i>
-            <p class="contact-type" id="phone-number">07581080113</p>
+        <i class="ph-envelope-simple contact-icon" id="mail-icon"></i>
+        <p class="contact-type" id="mail-address">
+          <a id="mail-link" href="mailto:natashacarr1@yahoo.com?subject=Hello!"
+            >natashacarr1@yahoo.com</a
+          >
+        </p>
 
-            <i class="ph-envelope-simple contact-icon" id="mail-icon"></i>
-            <p class="contact-type" id="mail-address"><a id="mail-link" href="mailto:natashacarr1@yahoo.com?subject=Hello!">natashacarr1@yahoo.com</a></p>
+        <i class="ph-linkedin-logo contact-icon" id="linkedin-icon"></i>
+        <p class="contact-type" id="linkedin-address">
+          <a
+            id="linkedin-link"
+            href="https://www.linkedin.com/in/natashacarr1/"
+            target="_blank"
+            >/natashacarr1</a
+          >
+        </p>
+      </div>
 
-            <i class="ph-linkedin-logo contact-icon" id="linkedin-icon"></i>
-            <p class="contact-type" id="linkedin-address"><a id="linkedin-link" href="https://www.linkedin.com/in/natasha-carr-334a68222/" target="_blank">/natashacarr1</a></p>
-        </div>
-
+      <a id="cv-download" href="./natasha-carr-cv.pdf" download>Download CV</a>
     </div>
-
-</body>
-
+  </body>
 </html>
